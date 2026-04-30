@@ -7,7 +7,7 @@
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://yourportfolio.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/daniel-dadzie)
 [![Resume](https://img.shields.io/badge/Resume-4CAF50?style=for-the-badge&logo=googledrive&logoColor=white)](https://your-resume-link.com)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:danielyawdadzie@gmail.com)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:danielyawdadzie21@gmail.com)
 
 🎓 Computer Science & Engineering · UMaT, Ghana  
 🌍 Building scalable systems for real-world problems in emerging markets  
@@ -49,7 +49,7 @@ My work emphasizes:
 
 **Stack:** `Spring Boot` `React` `MySQL` `Docker`
 
-🔗 Repository: https://github.com/yourusername/hostel-system  
+🔗 Repository: https://github.com/Daniel-Dadzie/hostel-management-system
 🌐 Live Demo: https://your-live-link.com  
 
 ---
@@ -65,7 +65,7 @@ My work emphasizes:
 
 **Stack:** `Python` `XGBoost` `MLflow` `FastAPI` `Docker`
 
-🔗 Repository: https://github.com/yourusername/taxi-ml  
+🔗 Repository: https://github.com/Daniel-Dadzie/nyc-taxi-ml
 
 ---
 
@@ -80,7 +80,7 @@ My work emphasizes:
 
 **Stack:** `Python` `scikit-learn` `Pandas` `Streamlit`
 
-🔗 Repository: https://github.com/yourusername/breast-cancer-ml  
+🔗 Repository: https://github.com/Daniel-Dadzie/breast-cancer-ml  
 
 ---
 
@@ -94,7 +94,7 @@ My work emphasizes:
 
 **Stack:** `Python` `React` `FastAPI`
 
-🔗 Repository: https://github.com/yourusername/cedisense  
+🔗 Repository: https://github.com/Daniel-Dadzie/cedisense  
 
 ---
 
@@ -113,7 +113,7 @@ I approach projects with a strong emphasis on **system design and scalability**:
 ## 🛠️ Core Tech Stack
 
 **Languages:**  
-`Java` ·  `C++`· `Python` · `JavaScript` · `SQL` 
+`Java` · `C++`· `Python` · `JavaScript` · `SQL` 
 
 **Backend:**  
 `Spring Boot` · `FastAPI` · `Node.js`
