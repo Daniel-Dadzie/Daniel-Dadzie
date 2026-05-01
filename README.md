@@ -1,141 +1,163 @@
 <div align="center">
 
-# Daniel Yaw Dadzie 👋
+# Daniel Yaw Dadzie
 
-### Full Stack Engineer · ML Engineer · Fintech Builder
-
+### Full Stack · Backend · ML Engineering
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://yourportfolio.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/daniel-dadzie)
 [![Resume](https://img.shields.io/badge/Resume-4CAF50?style=for-the-badge&logo=googledrive&logoColor=white)](https://your-resume-link.com)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:danielyawdadzie21@gmail.com)
 
-🎓 Computer Science & Engineering · UMaT, Ghana  
-🌍 Building scalable systems for real-world problems in emerging markets  
-🟢 **Open to:** Software Engineering · Backend · ML Internships  
+*Computer Science & Engineering · UMaT, Ghana*
 
 </div>
 
 ---
 
-## 🧠 About Me
+## About Me
 
-I am a **Full Stack Software Engineer with a focus on backend systems and machine learning**, building **production-oriented applications** that solve real-world problems.
+Growing up, I watched people around me — family, neighbours, students — make painful financial decisions not because they were careless, but because they had no real tools to help them think clearly about money. That experience is what eventually became **CediSense**, and it's what shapes how I think about software: systems should solve problems that actually matter to real people.
 
-My work emphasizes:
-- Scalable backend architecture  
-- Clean API design and validation  
-- Efficient data handling and system performance  
-- End-to-end ML pipelines with reproducibility  
+I'm a full stack and ML engineer focused on **backend systems, API design, and end-to-end ML pipelines**. I write clean, tested, production-oriented code and care deeply about what happens after the code ships — reliability, maintainability, and real-world performance.
 
-**Impact Snapshot:**
-- Achieved **97%+ accuracy** on a balanced 569-sample dataset  
-  using stratified k-fold cross-validation (Logistic Regression vs SVM)
-
-- Unit and integration testing with clear coverage targets  
-- CI/CD pipelines with automated testing on pull requests  
+I'm currently open to **backend, full stack, and ML engineering internships and junior roles**.
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
-### 🏨 Hostel Management System
-> Full-stack system for scalable student accommodation management
+### CediSense — AI-Powered Financial Platform for Students in Africa
 
-**Engineering Highlights:**
-- Role-Based Access Control (RBAC) across multiple user types  
-- Smart room allocation algorithm based on constraints (capacity, gender, preferences)  
-- REST API design with validation and structured error handling  
-- Database design with normalized schema and indexing considerations  
+The problem: most personal finance tools are built for users with stable incomes, credit histories, and Western banking infrastructure. Students in Ghana have none of that.
 
-**Stack:** `Spring Boot` `React` `MySQL` `Docker`
+CediSense is an AI-driven financial platform that analyses student spending behaviour and generates personalised savings recommendations — built mobile-first, designed for users who may be managing money independently for the first time.
 
-🔗 Repository: https://github.com/Daniel-Dadzie/hostel-management-system
-🌐 Live Demo: https://your-live-link.com  
+**Key engineering decisions:**
+- Behavioural data pipeline feeding a recommendation engine (spending patterns → actionable savings targets)
+- FastAPI backend designed for low-latency mobile clients
+- Architecture decisions made with eventual multi-institution deployment in mind
 
----
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
-### 🚕 Taxi Trip Duration Predictor
-> Production-style ML system with experiment tracking and deployment
-
-**Engineering Highlights:**
-- XGBoost model with optimized RMSE through feature engineering  
-- MLflow integration for experiment tracking and reproducibility  
-- FastAPI service for model inference  
-- Dockerized for consistent deployment environments  
-
-**Stack:** `Python` `XGBoost` `MLflow` `FastAPI` `Docker`
-
-🔗 Repository: https://github.com/Daniel-Dadzie/nyc-taxi-ml
+🔗 [Repository](https://github.com/Daniel-Dadzie/cedisense)
 
 ---
 
-### 🧬 Breast Cancer Prediction System
-> ML-powered classification system for healthcare prediction
+### Hostel Management System
 
-**Engineering Highlights:**
-- End-to-end pipeline: preprocessing → training → evaluation  
-- Model comparison (Logistic Regression vs SVM)  
-- Achieved **97%+ accuracy with stratified validation**  
-- Streamlit-based UI for real-time predictions  
+A full-stack system for managing student accommodation at scale — room allocation, resident records, and access control across multiple user roles.
 
-**Stack:** `Python` `scikit-learn` `Pandas` `Streamlit`
+The interesting engineering problem here wasn't the CRUD layer — it was the **room allocation algorithm**: given a set of rooms with varying capacity, a pool of students with gender constraints and room preferences, and partial availability, allocate optimally. I implemented a constraint-satisfaction approach that runs greedily and falls back gracefully when no perfect match exists.
 
-🔗 Repository: https://github.com/Daniel-Dadzie/breast-cancer-ml  
+**Key engineering decisions:**
+- RBAC across student, warden, and admin roles with Spring Security
+- Normalised MySQL schema with indexing on high-frequency query paths (room availability, student lookup)
+- Dockerised for consistent local and deployment environments
+- REST API with structured validation and error contracts
 
----
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
-### 💰 CediSense — FinTech Platform
-> AI-driven financial forecasting system for students in Africa
-
-**Engineering Highlights:**
-- Behavioral data-driven savings recommendations  
-- Focus on financial literacy and accessibility  
-- Designed with scalability and mobile-first users in mind  
-
-**Stack:** `Python` `React` `FastAPI`
-
-🔗 Repository: https://github.com/Daniel-Dadzie/cedisense  
+🔗 [Repository](https://github.com/Daniel-Dadzie/hostel-management-system)
 
 ---
 
-## 🧩 System Design & Engineering Focus
+### NYC Taxi Trip Duration Predictor
 
-I approach projects with a strong emphasis on **system design and scalability**:
+A production-style ML system — not just a notebook, but a full inference service with experiment tracking, a serving layer, and a containerised deployment environment.
 
-- Backend systems designed for modularity and maintainability  
-- API-first development with clear contracts and validation  
-- Database schema design with performance considerations  
-- ML systems built with reproducibility and deployment in mind  
-- Consideration of scaling, fault tolerance, and real-world constraints  
+**Key engineering decisions:**
+- XGBoost model with feature engineering on pickup hour, distance bins, and day-of-week patterns to reduce RMSE
+- MLflow for experiment tracking — every run is reproducible, every model version is logged
+- FastAPI inference endpoint with request validation
+- Docker for environment consistency from local development to deployment
 
----
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-337AB7?style=flat-square&logo=xgboost&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
-## 🛠️ Core Tech Stack
-
-**Languages:**  
-`Java` · `C++`· `Python` · `JavaScript` · `SQL` 
-
-**Backend:**  
-`Spring Boot` · `FastAPI` · `Node.js`
-
-**Frontend:**  
-`React` · `Vite`
-
-**Data & ML:**  
-`scikit-learn` · `XGBoost` · `MLflow`
-
-**Infrastructure & Tools:**  
-`Docker` · `GitHub Actions` · `MySQL`
+🔗 [Repository](https://github.com/Daniel-Dadzie/nyc-taxi-ml)
 
 ---
 
-## 📊 GitHub Stats
+### Breast Cancer Classification System
+
+An end-to-end ML pipeline for binary cancer classification on the Wisconsin Breast Cancer dataset (569 samples, ~63% benign majority class).
+
+A naive majority-class classifier would score ~63% accuracy by predicting "benign" every time. The goal was to meaningfully exceed that. I compared Logistic Regression and SVM with stratified k-fold cross-validation to prevent data leakage, achieving **97%+ accuracy** — a genuine ~34-point lift over baseline, not just a high number in isolation.
+
+**Key engineering decisions:**
+- Stratified k-fold splits to preserve class ratios across folds on an imbalanced dataset
+- Model comparison framework: same preprocessing, same evaluation protocol, different algorithms
+- Streamlit UI for real-time predictions from clinical feature inputs
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+
+🔗 [Repository](https://github.com/Daniel-Dadzie/breast-cancer-ml)
+
+---
+
+## Core Stack
+
+**Languages**
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+
+**Backend**
+
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+
+**Frontend**
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+
+**ML & Data**
+
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-337AB7?style=for-the-badge&logo=xgboost&logoColor=white)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+
+**Infrastructure & Tools**
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+
+---
+
+## Currently Working On
+
+- Scaling CediSense to support multi-institution deployment
+- Deploying the Taxi Duration Predictor to GCD with automated retraining
+- First open-source contribution targeting a Python ML library
+
+---
+
+## GitHub Activity
 
 <div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Daniel-Dadzie&show_icons=true&theme=github_dark&hide_border=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Daniel-Dadzie&layout=compact&theme=github_dark&hide_border=true)
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=Daniel-Dadzie&theme=github-dark-blue&hide_border=true)
 
@@ -143,32 +165,20 @@ I approach projects with a strong emphasis on **system design and scalability**:
 
 ---
 
-## 📈 Currently Working On
+## Engineering Philosophy
 
-- 🚀 Scaling CediSense backend to support multi-institution deployment  
-- ☁️ Deploying Taxi Duration Predictor to AWS with automated retraining  
-- 🌱 First open-source PR targeting a Python ML library  
+> Systems built for real people, in real conditions, with real constraints.
 
----
+I approach projects with a systems mindset: API contracts before implementation, schema design before queries, reproducibility before model accuracy. I want to understand the failure modes before I write the first line.
 
-## 💼 Open to Opportunities
-
-🟢 **Available now for:** Backend · Full Stack · ML Engineering Internships & Junior Roles  
-
-I write clean, tested, production-ready code and communicate clearly throughout.  
-If that's what your team needs — let's talk.
-
-📄 [Resume](https://your-resume-link.com) · 📧 [Email](mailto:danielyawdadzie21@gmail.com) · 💼 [LinkedIn](https://linkedin.com/in/daniel-dadzie)
+Clean code matters. So does understanding why the system needs to exist.
 
 ---
 
-## 🤝 Let's Connect
+<div align="center">
 
-- 💼 LinkedIn: https://linkedin.com/in/daniel-dadzie 
-- 🌐 Portfolio: https://yourportfolio.com  
+📧 [danielyawdadzie21@gmail.com](mailto:danielyawdadzie21@gmail.com) · 💼 [LinkedIn](https://linkedin.com/in/daniel-dadzie)
 
----
+*Open to backend, full stack, and ML engineering internships & junior roles*
 
-## 💡 Philosophy
-
-> *Consistency, clarity, and engineering discipline drive long-term impact.*
+</div>
