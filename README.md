@@ -26,25 +26,6 @@ I'm currently open to **backend, full stack, and ML engineering internships and 
 
 ## Featured Projects
 
-### CediSense — AI-Powered Financial Platform for Students in Africa
-
-The problem: most personal finance tools are built for users with stable incomes, credit histories, and Western banking infrastructure. Students in Ghana have none of that.
-
-CediSense is an AI-driven financial platform that analyses student spending behaviour and generates personalised savings recommendations — built mobile-first, designed for users who may be managing money independently for the first time.
-
-**Key engineering decisions:**
-- Behavioural data pipeline feeding a recommendation engine (spending patterns → actionable savings targets)
-- FastAPI backend designed for low-latency mobile clients
-- Architecture decisions made with eventual multi-institution deployment in mind
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-
-🔗 [Repository](https://github.com/Daniel-Dadzie/cedisense)
-
----
 
 ### Hostel Management System
 
