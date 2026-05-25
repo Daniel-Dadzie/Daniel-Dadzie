@@ -4,7 +4,8 @@
 
 ### Full Stack · Backend · ML Engineering
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://yourportfolio.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/daniel-dadzie)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/daniel-yaw-dadzie)
+ 
 [![Resume](https://img.shields.io/badge/Resume-4CAF50?style=for-the-badge&logo=googledrive&logoColor=white)](https://your-resume-link.com)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ddadzie120@gmail.com)
 
@@ -16,11 +17,11 @@
 
 ## About Me
 
-Growing up, I watched people around me — family, neighbours, students — make painful financial decisions not because they were careless, but because they had no real tools to help them think clearly about money. That experience is what eventually became **CediSense**, and it's what shapes how I think about software: systems should solve problems that actually matter to real people.
+Growing up, I watched people around me — family, neighbours, students — navigate problems that technology could have made easier, but didn't. Not because the solutions were impossible, but because nobody had built them with those people in mind. That gap is what eventually drew me to software engineering, and it's what shapes how I think about it: systems should solve problems that actually matter to real people.
 
-I'm a full stack and ML engineer focused on **backend systems, API design, and end-to-end ML pipelines**. I write clean, tested, production-oriented code and care deeply about what happens after the code ships — reliability, maintainability, and real-world performance.
 
-I'm currently open to **backend, full stack, and ML engineering internships and junior roles**.
+I'm a full stack and ML engineer focused on backend systems, API design, and end-to-end ML pipelines. I write clean, tested, production-oriented code and care deeply about what happens after the code ships — reliability, maintainability, and real-world performance.
+I'm currently open to backend, full stack, and ML engineering internships and junior roles.
 
 ---
 
@@ -130,7 +131,7 @@ A naive majority-class classifier would score ~63% accuracy by predicting "benig
 
 ## Currently Working On
 
-- Scaling CediSense to support multi-institution deployment
+- Deploying the hostel management system
 - Deploying the Taxi Duration Predictor to GCD with automated retraining
 - First open-source contribution targeting a Python ML library
 
@@ -138,11 +139,11 @@ A naive majority-class classifier would score ~63% accuracy by predicting "benig
 
 ## GitHub Activity
 
-<div align="center">
+<!-- <div align="center">
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=Daniel-Dadzie&theme=github-dark-blue&hide_border=true)
 
-</div>
+</div> -->
 
 ---
 
