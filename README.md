@@ -139,11 +139,11 @@ A naive majority-class classifier would score ~63% accuracy by predicting "benig
 
 ## GitHub Activity
 
-<!-- <div align="center">
+ <div align="center">
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=Daniel-Dadzie&theme=github-dark-blue&hide_border=true)
 
-</div> -->
+</div> 
 
 ---
 
